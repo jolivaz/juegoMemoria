@@ -1,0 +1,90 @@
+.jugadores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    169deg,
+    rgba(243, 255, 0, 1) 2%,
+    rgba(14, 208, 61, 1) 17%,
+    rgba(14, 207, 51, 1) 18%,
+    rgba(11, 192, 201, 1) 44%
+  );
+  button{
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 18px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+  }
+  button:hover{
+      background-color: #fff;
+      color: #0bc0c9;
+  }
+  .jugador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .jugador-icon {
+      width: 30px;
+      margin-right: 10px;
+    }
+    .jugador-activo {
+      width: 40px;
+      animation-name: parpadeo;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+
+      -webkit-animation-name: parpadeo;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+    }
+    @-moz-keyframes parpadeo {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes parpadeo {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes parpadeo {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .jugador-nombre {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+    .jugador-puntos {
+      font-weight: bold;
+      margin-right: 30px;
+    }
+  }
+}

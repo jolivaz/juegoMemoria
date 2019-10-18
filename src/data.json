@@ -1,0 +1,124 @@
+{
+   "cartas": [
+       {
+           "id": 1,
+           "carta": "A",
+           "estado": false,
+           "adivinada": false
+       },
+       {
+        "id": 2,
+        "carta": "A",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 3,
+        "carta": "B",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 4,
+        "carta": "B",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 5,
+        "carta": "C",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 6,
+        "carta": "C",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 7,
+        "carta": "D",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 8,
+        "carta": "D",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 9,
+        "carta": "E",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 10,
+        "carta": "E",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 11,
+        "carta": "F",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 12,
+        "carta": "F",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 13,
+        "carta": "G",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 14,
+        "carta": "G",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 15,
+        "carta": "H",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 16,
+        "carta": "H",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 17,
+        "carta": "I",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 18,
+        "carta": "I",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 19,
+        "carta": "J",
+        "estado": false,
+        "adivinada": false
+    },
+    {
+        "id": 20,
+        "carta": "J",
+        "estado": false,
+        "adivinada": false
+    }
+   ]
+}

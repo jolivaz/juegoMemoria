@@ -1,0 +1,33 @@
+.jugadores-form{
+    border: 1px solid #fff;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(169deg, rgba(243,255,0,1) 2%, rgba(14,208,61,1) 17%, rgba(14,207,51,1) 18%, rgba(11,192,201,1) 44%);
+    .jugador{
+        display: flex;
+        align-items: center;
+        img{
+            width: 50px;
+            height: 60px;
+            margin: 0 15px;
+        }
+    }
+    .jugadores-form-btn{
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        margin-left: 20px;
+        padding: 10px 20px;
+        background: transparent;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+    }
+    .jugadores-form-btn:hover{
+        background-color: #fff;
+        color: #0bc0c9;
+    }
+}
