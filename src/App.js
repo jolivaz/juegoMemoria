@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/header/header";
 import Tablero from "./components/tablero/tablero";
 import Jugadores from "./components/jugadores/jugadores";
+import IconPlayers from "./components/icon-players/icon-players";
 import "./App.css";
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
       id: 1,
       nombre: "Jugador 1",
       puntos: 0,
-      activo: true
+      activo: true,
+      sexMan: true
     },
     {
       id: 2,
       nombre: "Jugador 2",
       puntos: 0,
-      activo: false
+      activo: false,
+      sexMan: true
     }
   ]);
 
@@ -38,6 +41,10 @@ function App() {
         editandoJugadores={editandoJugadores}
         guardarlistjugadores={guardarlistjugadores}
         guardarEditandoJugadores={guardarEditandoJugadores}
+      />
+
+      <IconPlayers 
+        listjugadores={listjugadores}
       />
 
       <Tablero

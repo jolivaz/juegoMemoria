@@ -1,6 +1,6 @@
 .jugadores-form{
     border: 1px solid #fff;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     padding: 5px 20px;
@@ -29,5 +29,8 @@
     .jugadores-form-btn:hover{
         background-color: #fff;
         color: #0bc0c9;
+    }
+    .sex-player{
+        display: flex;
     }
 }

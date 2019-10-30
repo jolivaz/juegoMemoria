@@ -1,7 +1,8 @@
 import React, { useState, useEffect, Fragment } from "react";
-import Carta from "../carta/carta";
 import Ganador from "../ganador/ganador";
+import Carta from "../carta/carta";
 import "./tablero.scss";
+
 
 const Tablero = ({
   cartas,
