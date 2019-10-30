@@ -1,8 +1,9 @@
 .icon-players{
-    position: absolute;
+    z-index: -2;
     width: 92%;
-    padding: 20px 40px;
     display: flex;
+    position: absolute;
+    padding: 20px 40px;
     align-items: center;
     justify-content: space-between;
     img{
