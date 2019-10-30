@@ -14,8 +14,18 @@ const Ganador = ({ listjugadores }) => {
 
   const verGanador = (
     <div>
-      <h2>El ganador de la partida es: {ganador().nombre}</h2>
-      <p>Con {ganador().puntos} puntos</p>
+      {
+        ganador() === 'Empate' ?
+        <div>
+          <h2>Empate entre {listjugadores[0].nombre} y {listjugadores[1].nombre}</h2>
+        </div>
+        :
+        <div>
+          <h2>El ganador de la partida es: {ganador().nombre}</h2>
+          <p>Con {ganador().puntos} puntos</p>
+        </div>
+      }
+
     </div>
   );
   return <div className="ganador">{verGanador}</div>;
